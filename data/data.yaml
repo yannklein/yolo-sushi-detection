@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 22
+names: ['anago', 'ebi', 'futomaki', 'hamachi', 'hirame', 'hokkigai', 'ika', 'ikura', 'kani', 'maguro', 'masago', 'philadelphia', 'saba', 'sake', 'sake_hand_roll', 'tai', 'tako', 'tamago', 'tekkamaki', 'tobiko', 'toro', 'unagi']
+
+roboflow:
+  workspace: sushidetection
+  project: sushi_detection
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sushidetection/sushi_detection/dataset/2
